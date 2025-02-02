@@ -12,9 +12,6 @@ using SkiaSharp; // Pour la génération d'images
 public class InstagramBot
 {
     private readonly HttpClient _httpClient;
-    // private const string AccessToken = "IGAAO5ZCm9RlyFBZAE5KSXBDY1AyS1czVUFNcGhiSlhsbEozRVd4ZAi1BWGJLUDNBZAmwyQm4wLV9GNS1CTkRHZAF9LakFndk9QTWsxS3ZAyd2tBeUNoVENoTm9wMWJCQ1FlcTR0cXpvQnUyNjBNTGFKN3BDM3hsUWJ1LS14cGs1SGlfcwZDZD"; // Remplace par ton access token
-    // private const string InstagramAccountId = "17841472032294377"; // Remplace par ton compte Instagram ID$
-
     private readonly string AccessToken;
     private readonly string InstagramAccountId;
 
